@@ -10,8 +10,11 @@
     "format": "prettier --write ./src"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "6.28",
+    "react-spinners": "^0.15.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -38,7 +41,8 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
     "typescript-plugin-css-modules": "^5.1.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1",
+    "vite-plugin-svgr": "^4.3.0"
   },
-	"packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@1.22.22"
 }

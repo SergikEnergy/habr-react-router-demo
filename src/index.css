@@ -1,29 +1,53 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 :root {
-  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  /* fonts */
+    /* fonts */
+    --base-font-size: 18px;
+    --large-font-size: 22px;
+    --title-font-size: 24px;
+    --title-not-found-font-size: 62px;
+    --subtitle-font-size: 20px;
+    --button-font-size: : 16px;
 
-  /* gaps */
+    /* gaps */
+    --gap-8: 8px;
+    --gap-12: 12px;
+    --gap-16: 16px;
+    --gap-24: 24px;
+    --gap-32: 32px;
+    --gap-40: 40px;
 
-  /* colors */
+    /* colors */
+    --color-white: #fff;
+    --color-black: #000;
+
+    --button-primary-bg-color: #9747ff;
+    --main-bg-color: #bac0ff;
+    --button-primary-bg-color-hover: #5f1db6;
+    --button-secondary-bg-color: #fff;
+    --button-secondary-bg-hover-color: #a8a8a8;
+
+    /* opacity, borders */
+    --button-disabled-opacity: 0.3;
+    --border-radius-button: 8px;
 }

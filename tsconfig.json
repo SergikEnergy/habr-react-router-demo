@@ -1,41 +1,42 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ESNext.Array", "ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true,
-    "allowJs": true,
-    "baseUrl": ".",
-    "paths": {
-      "@public/*": ["./public/*"],
-      "@components/*": ["./src/components/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@types/*": ["./src/types/*"],
-      "@utils/*": ["./src/utils/*"]
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ESNext.Array", "ES2020", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "~public/*": ["./public/*"],
+            "~components/*": ["./src/components/*"],
+            "~constants/*": ["./src/constants/*"],
+            "~pages/*": ["./src/pages/*"],
+            "~types/*": ["./src/types/*"],
+            "~utils/*": ["./src/utils/*"]
+        },
+        "plugins": [
+            {
+                "name": "typescript-plugin-css-modules",
+                "options": {
+                    "postCssOptions": {
+                        "useConfig": true
+                    }
+                }
+            }
+        ]
     },
-    "plugins": [
-      {
-        "name": "typescript-plugin-css-modules",
-        "options": {
-          "postCssOptions": {
-            "useConfig": true
-          }
-        }
-      }
-    ]
-  },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    "include": ["src"],
+    "references": [{ "path": "./tsconfig.node.json" }]
 }
