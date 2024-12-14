@@ -47,7 +47,9 @@ body {
     --button-secondary-bg-color: #fff;
     --button-secondary-bg-hover-color: #a8a8a8;
 
-    /* opacity, borders */
+    /* opacity, borders, other */
     --button-disabled-opacity: 0.3;
     --border-radius-button: 8px;
+    --border-radius-entry: 24px;
+    --filter-blur-bg-base: 10px;
 }

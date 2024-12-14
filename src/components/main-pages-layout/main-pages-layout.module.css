@@ -1,0 +1,10 @@
+.entryLayout {
+    width: 270px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-entry);
+    backdrop-filter: blur(var(--filter-blur-bg-base));
+}

@@ -1,4 +1,11 @@
 .logo {
-    width: 56px;
-    height: 24px;
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    left: 5%;
+
+    img {
+        width: 112px;
+        height: 48px;
+    }
 }
