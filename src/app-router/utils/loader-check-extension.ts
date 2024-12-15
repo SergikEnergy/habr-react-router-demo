@@ -6,7 +6,7 @@ import { PageSteps } from '~types/page-steps';
 const LOADER_VISIBLE_DURATION_MS = 3000;
 
 // flag для проверки успешности проверки - можно поэкспериментировать и поменять
-const PROMISE_RESOLVED = true;
+const PROMISE_RESOLVED = false;
 
 // здесь может быть любая асинхронная проверка
 const customChecking = () =>

@@ -4,5 +4,6 @@ export const ROUTES = {
     mainPage: '/',
     stepsRootPage: '/steps',
     stepPage: `:${STEP_PARAMS_NAME}`,
-    notFound: '*',
+    notFound: '/not-found',
+    anyRoute: '*',
 };

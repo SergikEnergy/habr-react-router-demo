@@ -1,0 +1,37 @@
+.enter {
+    width: 100%;
+    min-height: var(--entry-min-size);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    gap: var(--gap-24);
+}
+
+.title {
+    margin-bottom: auto;
+    text-align: center;
+
+    h3 {
+        font-size: var(--title-font-size);
+        line-height: 1.4;
+        font-weight: 600;
+        color: var(--color-black);
+        margin: var(--gap-24) 0;
+    }
+
+    p {
+        font-size: var(--large-font-size);
+        line-height: 1.4;
+        font-weight: 500;
+        color: var(--color-black);
+    }
+}
+
+.buttons {
+    width: 70%;
+    margin: auto;
+
+    button:not(:last-child) {
+        margin-bottom: var(--gap-32);
+    }
+}

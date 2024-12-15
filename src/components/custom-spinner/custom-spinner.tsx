@@ -9,7 +9,7 @@ type CustomSpinnerProps = {
 export const CustomSpinner: FC<CustomSpinnerProps> = ({ tip = '' }) => {
     return (
         <div className={classes.spinner}>
-            <FadeLoader width={36} height={36} color="blue" />
+            <FadeLoader width={5} height={15} color="#b30eac" />
             {tip && <div className={classes.tip}>{tip}</div>}
         </div>
     );

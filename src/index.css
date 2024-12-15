@@ -27,7 +27,7 @@ body {
     --title-font-size: 24px;
     --title-not-found-font-size: 62px;
     --subtitle-font-size: 20px;
-    --button-font-size: : 16px;
+    --button-font-size: 16px;
 
     /* gaps */
     --gap-8: 8px;
@@ -43,6 +43,7 @@ body {
 
     --button-primary-bg-color: #9747ff;
     --main-bg-color: #bac0ff;
+    --main-bg-color-20: rgba(153, 161, 253, 0.4);
     --button-primary-bg-color-hover: #5f1db6;
     --button-secondary-bg-color: #fff;
     --button-secondary-bg-hover-color: #a8a8a8;
@@ -51,5 +52,8 @@ body {
     --button-disabled-opacity: 0.3;
     --border-radius-button: 8px;
     --border-radius-entry: 24px;
-    --filter-blur-bg-base: 10px;
+    --filter-blur-bg-base: 4px;
+
+    /* sizes */
+    --entry-min-size: 300px;
 }

@@ -2,5 +2,6 @@ import { createBrowserRouter } from 'react-router-dom';
 
 import { notFound } from './routes/not-found';
 import { startPage } from './routes/start-page';
+import { anyRoute } from './routes/any-route';
 
-export const AppRouter = createBrowserRouter([startPage, notFound]);
+export const AppRouter = createBrowserRouter([startPage, notFound, anyRoute]);

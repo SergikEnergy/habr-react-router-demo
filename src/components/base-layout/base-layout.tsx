@@ -6,9 +6,8 @@ export const BaseLayout = () => {
     return (
         <section className={classes.content}>
             <Logo />
-            <div className={classes.internals}>
-                <Outlet />
-            </div>
+
+            <Outlet />
         </section>
     );
 };

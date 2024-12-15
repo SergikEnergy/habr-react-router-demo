@@ -1,10 +1,18 @@
 .entryLayout {
-    width: 270px;
-    min-height: 250px;
+    width: 520px;
+    min-height: var(--entry-min-size);
+    border-radius: var(--border-radius-entry);
+    background: var(--main-bg-color-20);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(var(--filter-blur-bg-base));
+}
+
+.entryInternals {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: var(--border-radius-entry);
-    backdrop-filter: blur(var(--filter-blur-bg-base));
+    padding: var(--gap-32);
 }

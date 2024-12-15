@@ -35,7 +35,7 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
         >
             {loading && <ClipLoader size={16} color={type === 'primary' ? '#fff' : '#000'} />}
             {!loading && Boolean(icon) && icon}
-            {children}
+            <span>{children}</span>
         </button>
     );
 };

@@ -11,7 +11,9 @@ export const MainPagesLayout = () => {
 
     return (
         <div className={classes.entryLayout}>
-            <Outlet context={contextFromRouter} />
+            <div className={classes.entryInternals}>
+                <Outlet context={contextFromRouter} />
+            </div>
         </div>
     );
 };

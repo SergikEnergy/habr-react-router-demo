@@ -26,6 +26,7 @@ export default defineConfig(({ command }) => ({
             '~pages': resolve(__dirname, 'src', 'pages'),
             '~types': resolve(__dirname, 'src', 'types'),
             '~utils': resolve(__dirname, 'src', 'utils'),
+            '~assets': resolve(__dirname, 'src', 'assets'),
         },
     },
     base: command === 'build' ? '/SergikEnergy/' : '/',

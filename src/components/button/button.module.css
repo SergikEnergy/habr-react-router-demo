@@ -1,10 +1,9 @@
 .button {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
     align-items: center;
     justify-content: center;
+    gap: var(--gap-12);
     cursor: pointer;
     transition: all ease-in 0.3s;
     padding: var(--gap-12) var(--gap-16) var(--gap-12) var(--gap-12);
@@ -15,6 +14,11 @@
     white-space: nowrap;
     border: none;
 
+    span {
+        display: inline-block;
+        background-color: transparent;
+    }
+
     &.block {
         width: 100%;
     }
@@ -22,10 +26,9 @@
     &.primary {
         background-color: var(--button-primary-bg-color);
         color: var(--color-white);
-        :hover,
-        :focus {
+        :hover:not(:disabled),
+        :focus:not(:disabled) {
             background-color: var(--button-primary-bg-color-hover);
-            transform: scale(1.03);
         }
     }
 
@@ -33,16 +36,14 @@
         background-color: var(--button-secondary-bg-color);
         color: var(--color-black);
 
-        :hover,
-        :focus {
+        :hover:not(:disabled),
+        :focus:not(:disabled) {
             background-color: var(--button-secondary-bg-color-hover);
-            transform: scale(1.03);
         }
     }
 
     &.disabled {
         opacity: 0.3;
         cursor: not-allowed;
-        pointer-events: none;
     }
 }
