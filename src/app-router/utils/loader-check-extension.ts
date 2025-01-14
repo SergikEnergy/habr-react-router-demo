@@ -44,8 +44,7 @@ export const loaderCheckExtension = ({ params }: { params: Params<typeof STEP_PA
     /* возвращаем промис - причем без await - чтобы в дальнейшем использовать
        Suspense и fallback, если здесь использовать await - то перехода по роуту не случится
        до завершения await (в версии реакт-роутер-дом до 7 - нужно было использовать
-       defer({returnedObject}))
-       для получения аналогичного эффекта
+       defer({returnedObject})) для получения аналогичного эффекта
     */
     const hasExtension = customCheck();
 
