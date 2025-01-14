@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router';
 import classes from './enter-page.module.css';
 import { StepParams } from '~types/router';
 import { PageSteps } from '~types/page-steps';

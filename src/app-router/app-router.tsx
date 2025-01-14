@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router';
 
 import { notFound } from './routes/not-found';
 import { startPage } from './routes/start-page';

@@ -1,4 +1,4 @@
-import { RouteObject } from 'react-router-dom';
+import { type RouteObject } from 'react-router';
 
 import { ROUTES } from '~constants/routes';
 import { NotFoundPage } from '~pages/not-found-page';

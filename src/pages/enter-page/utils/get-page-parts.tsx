@@ -5,7 +5,7 @@ import GoggleIcon from '~assets/google-icon.png';
 import BackIcon from '~assets/back-icon.png';
 import TableIcon from '~assets/table-icon.png';
 import DownloadIcon from '~assets/download-icon.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { ROUTES } from '~constants/routes';
 
 type GetPagePartsFunc = (step: string) => {

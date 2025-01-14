@@ -4,7 +4,7 @@ export type EntryPageContextValue = {
     someProp: string;
 };
 
-export type EntryLoaderData = { hasExtension: Promise<boolean> };
+export type EntryLoaderData = { hasExtension: boolean };
 
 export type StepParams = {
     [STEP_PARAMS_NAME]: string;

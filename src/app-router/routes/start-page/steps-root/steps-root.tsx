@@ -1,4 +1,4 @@
-import { Navigate, RouteObject } from 'react-router-dom';
+import { Navigate, type RouteObject } from 'react-router';
 
 import { ROUTES } from '~constants/routes';
 import { LazyStartPage } from '~pages/lazy-start-page';

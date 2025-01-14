@@ -1,7 +1,7 @@
 import AnimatedIcon from '../../assets/not-found-icon.svg';
 import classes from './not-found-page.module.css';
 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { ROUTES } from '~constants/routes';
 import { Button } from '~components/button';
 

@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router';
 import classes from './main-pages-layout.module.css';
 import { EntryPageContextValue } from '~types/router';
 
